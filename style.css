@@ -1,0 +1,87 @@
+body{
+  disblay:block;
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  filter: drop-shadow(1px 20px 20px white);
+
+}
+header{
+  height: 300px;
+  background-image: url("hed.jpg");
+  background-size: cover;
+  disblay:grid;
+}
+h2.name{
+  color: white;
+  font-size: 80px;
+  justify-self:center;
+}
+article{
+  background-color:black;
+  display:block;
+
+}
+.profile{
+height: 700px;
+padding:5%;
+disblay :flex;
+justify-item:center;
+aling-item:center;
+background-amg: url("hed.jpg");
+background-size:cover;
+background-repet:no-repeat;
+}
+.avater{
+  height: 70%;
+  wight:100%;
+  box-shadow: 10px 10px 79px 4px black;
+  packgraund-image: url("header.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.summary{
+height: 70%;
+wight:100%;
+color:white;
+padding-lift:5%;
+}
+.education{
+  height: 70%;
+  padding:4%;
+  disblay:flex;
+  justify.item:center;
+  aling.item:center;
+  packgraund-image: url("download.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:black;
+}
+.box{
+  padding: 3%;
+  box-shadow:
+  disblay:grid;
+  grid-template-columns:1fr 4fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areeas:
+  "title- -"
+  "- col1 col2";
+  justify-content: center;
+  aling.item:center;
+  height: 70%;
+  padding:4%;
+  background-color: white;
+}
+.edu1{
+  grid-area:col1;
+  broder: dashed blue thin;
+  padding: :20px;
+}
+.edu2{
+  grid-area:col2;
+  broder: dashed blue thin;
+  padding: :20px;
+}
+.education h1{
+  grid-area:tital;
+}
